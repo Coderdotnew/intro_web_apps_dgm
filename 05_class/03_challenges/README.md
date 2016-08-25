@@ -116,13 +116,13 @@ Now, let's check out the `.join` method
 
 
 ## Challenges   
-##### [Decimal Conversion](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/03_challenges/code/01_decimal_conversion)  
-##### [Prime Numbers](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/03_challenges/code/02_prime)
-##### [Emails](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/03_challenges/code/03_emails)  
-##### [Caesar Cipher](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/03_challenges/code/04_caesar_cipher)
+##### [Decimal Conversion](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/01_decimal_conversion)  
+##### [Prime Numbers](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/02_prime)
+##### [Emails](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/03_emails)  
+##### [Caesar Cipher](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/04_caesar_cipher)
 
 ## Navigation  
-##### Next class: [Object-Oriented Programming I](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/06_class)    
-##### Previous lesson: [Array Enumerables](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/02_array_enumerables) 
+##### Next class: [Object-Oriented Programming I](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class)    
+##### Previous lesson: [Array Enumerables](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables) 
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_acp)   
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)   

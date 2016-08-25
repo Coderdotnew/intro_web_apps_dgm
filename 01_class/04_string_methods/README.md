@@ -67,7 +67,7 @@ voldy("After all, Voldemort did great things – terrible, yes, but great.")
 ```
 
 ## Navigation  
-##### Next class: [Methods](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class)      
-##### Back to: [Introduction to Ruby](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/01_class)
+##### Next class: [Methods](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class)      
+##### Back to: [Introduction to Ruby](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/01_class)
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_acp)  
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)  

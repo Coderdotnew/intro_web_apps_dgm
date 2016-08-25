@@ -149,9 +149,9 @@ for_loop
 
 
 ## Challenges  
-##### [Loopy](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/02_more_loops/code/01_loopy)
-##### [Netflix Binge](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/02_more_loops/code/02_netflix_binge)
-##### [FizzBuzz Loops](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/02_more_loops/code/03_fizzbuzz_loops)  
+##### [Loopy](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops/code/01_loopy)
+##### [Netflix Binge](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops/code/02_netflix_binge)
+##### [FizzBuzz Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops/code/03_fizzbuzz_loops)  
 
 ## Navigation  
 ##### Next lesson: [Calculator Project](https://github.com/Coderdotnew/intro_web_apps_001/tree/master/03_class/05_group_project)    

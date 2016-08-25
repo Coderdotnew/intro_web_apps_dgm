@@ -20,4 +20,4 @@ Your should see the following output upon running `rspec`.
 
 ## Navigation   
 ##### Next challenge: [FizzBuzz Loops](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/02_more_loops/code/03_fizzbuzz_loops)  
-##### Back to lesson: [More Loops](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/02_more_loops)          
+##### Back to lesson: [More Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops)       

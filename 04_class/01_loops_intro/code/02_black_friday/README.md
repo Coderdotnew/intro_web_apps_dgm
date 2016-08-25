@@ -13,5 +13,5 @@ Your should see the following output upon running `rspec`.
 
 
 ## Navigation   
-##### Next challenge: [Snooze](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/04_class/01_loops_intro/code/03_snooze)     
+##### Next challenge: [Snooze](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/01_loops_intro/code/03_snooze)     
 ##### Back to lesson: [Intro to Loops](https://github.com/Coderdotnew/intro_web_apps_001/tree/master/03_class/03_loops_intro)     

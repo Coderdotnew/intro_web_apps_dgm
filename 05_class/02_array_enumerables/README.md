@@ -147,13 +147,13 @@ manipulate_with_each(nums)
 ##### FYI: You will likely need to use the Ruby documenation page to complete some of the tests in the spec files :smiling_imp:
 
 ## Challenges
-##### [Squaring](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/02_array_enumerables/code/01_squaring_for_days)
-##### [Olympics](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/02_array_enumerables/code/02_olympics)
-##### [Class Schedule](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/02_array_enumerables/code/03_class_schedule)
-##### [Word Manipulator](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/02_array_enumerables/code/04_word_manipulator)  
+##### [Squaring](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables/code/01_squaring_for_days)
+##### [Olympics](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables/code/02_olympics)
+##### [Class Schedule](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables/code/03_class_schedule)
+##### [Word Manipulator](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables/code/04_word_manipulator)  
 
 ## Navigation  
-##### Next lesson: [Challenges](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/03_challenges)    
-##### Previous lesson: [Intro to Arrays](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/05_class/01_intro_to_arrays)    
+##### Next lesson: [Challenges](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges)    
+##### Previous lesson: [Intro to Arrays](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/01_intro_to_arrays)    
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_acp)   
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)   

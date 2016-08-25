@@ -118,15 +118,15 @@ typical_day
 Take a few minutes to read through the **[Rspec and Test Driven Development Tutorial](https://github.com/Coderdotnew/rspec)**.
 
 ## Challenges  
-##### [RSpec Intro](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class/01_intro_to_methods/code/01_rspec_intro)  
-##### [Greetings Earthlings](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class/01_intro_to_methods/code/02_greetings_earthlings)  
-##### [Roadtrip](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class/01_intro_to_methods/code/03_roadtrip)  
+##### [RSpec Intro](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class/01_intro_to_methods/code/01_rspec_intro)  
+##### [Greetings Earthlings](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class/01_intro_to_methods/code/02_greetings_earthlings)  
+##### [Roadtrip](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class/01_intro_to_methods/code/03_roadtrip)  
 
 ## Navigation  
-##### Next lesson: [Variables](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class/02_variables)  
-##### Back to: [Methods](https://github.com/Coderdotnew/intro_web_apps_acp/tree/master/02_class) 
+##### Next lesson: [Variables](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class/02_variables)  
+##### Back to: [Methods](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/02_class) 
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_acp)    
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)    
 
 
 
