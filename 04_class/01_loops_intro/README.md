@@ -291,5 +291,5 @@ marathon_loop(26)
 ##### Next lesson: [More Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops)      
 ##### Back to: [Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class)  
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_001)   
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)   
 

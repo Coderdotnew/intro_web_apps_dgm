@@ -154,9 +154,9 @@ for_loop
 ##### [FizzBuzz Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/02_more_loops/code/03_fizzbuzz_loops)  
 
 ## Navigation  
-##### Next lesson: [Calculator Project](https://github.com/Coderdotnew/intro_web_apps_001/tree/master/03_class/05_group_project)    
-##### Previous lesson: [Intro to Loops](https://github.com/Coderdotnew/intro_web_apps_001/tree/master/03_class/03_loops_intro)   
+##### Next lesson: [Challenges](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/03_challenges)    
+##### Previous lesson: [Intro to Loops](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/04_class/01_loops_intro)    
 ---  
-[Course home](https://github.com/Coderdotnew/intro_web_apps_001)     
+[Course home](https://github.com/Coderdotnew/intro_web_apps_dgm)     
 
 
