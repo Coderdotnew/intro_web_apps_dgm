@@ -1,7 +1,7 @@
 ![1](http://i.imgur.com/XrPL0Bg.gif)
 ---  
 # Introduction to Web Apps with Ruby
-- Each Week you will meet with your instructor and a class of fellow soon-to-be software engineers to code the day away.
+- Each week you will meet with your instructor and a class of fellow soon-to-be software engineers to code the day away.
 - During each session, you will learn new syntax, rules, tips, tricks, and nuances about the topic we are currently reviewing. 
 - The majority of the session is devoted to coding. 
 - Working primarily in pairs, known as pair-programming, you will be able to collaborate, problem solve, discuss, and grow as a student, thinker, teammate, and programmer.
@@ -17,7 +17,7 @@ Imagine a world where apps didn't crash, where there were no bugs in our compute
 
 Be prepared to constantly receive errors messages. Failure in computer programming is a positive thing and a hint to the answer (and Ruby gives us some pretty great error messages).   
 ### 3. Embrace a culture of not knowing   
-The more you learn in this course, the more you will realize you don't know. Stay humble as you may excel in MVC architecture while your partner might excel at object-oriented design. Be ready to ask questions, be asked questions, oh, and *definitely* be ready to use our good friend Google.  
+The more you learn in this course, the more you will realize you don't know. Be ready to ask questions, be asked questions, oh, and *definitely* be ready to use our good friend Google.  
 
 ![2](http://i.imgur.com/0K9yTxn.gif)
 

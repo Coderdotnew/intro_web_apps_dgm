@@ -1,24 +1,24 @@
 # what_is_ruby?    
 ![1](http://i.imgur.com/Jsna8zj.png)
-- Ruby is a dynamic and powerful server-side language that lets us build interactive applications. It was written to have elegant syntax and be easy to read and write!  
+- Ruby is a dynamic and powerful server-side language that lets us build interactive applications. It was written to have elegant syntax and be easy to read and write.  
 - You may have heard of *front-end* versus *back-end* programming. 
   - Front-end is stuff like HTML or CSS. 
   - Ruby is the backend. It sends and receives data from servers all around the world that keeps your web applications running smoothly.  
-- Dynamic simply means changing, or not static, like a website is. Ruby enables us to intake user data and interpret this data to return information to the user. We will learn more about websites vs. web applications a bit later.
+- Dynamic simply means changing, or not static (i.e. a website). Ruby enables us to intake user data and interpret this data to return information to the user. We will learn more about websites vs. web applications a bit later.
 - Ruby was created in 1995 by Yukihiro Matsumoto (aka Matz). Matz said that he designed Ruby to be flexible. Ruby has been used to build web applications, server libraries, and even picture recognition engines. 
 - We use Ruby to write programs...
 
 # okay_so_whats_a_program?
-- A program is just a text file that has special characters and keywords, or code that the computer recognizes. As a coder, your job is to write this syntax in an order in which the computer can recognize and follow. So, a program is basically instructions for the computer.
+- A program is just a text file that has special characters and keywords, or code, that the computer recognizes. As a coder, your job is to write this syntax in an order in which the computer can recognize and follow. So, a program is basically instructions for the computer.
 - Programs must first be converted into machine code that the computer can understand, but our coding environment already includes Ruby installed, meaning the computer can interpret this code without first having to compile it into something like binary.
 
 # syntax_and_keywords
 - Think of Ruby as a foreign language with its own dictionary, style guide, and grammar. 
-- There can be basically 3 types of words in a program:
- 1. Ruby keywords like `if`, `return`, or `else` (Ruby has approximately 45 keywords)
- 2. Literal data, including strings, integers, booleans, and floats (more on this soon)
- 3. Defined barewords that you create, like variables and method names (again, more on this soon)
-
+- There can be basically 3 types of "words" in a program:
+  - **Ruby keywords** like `if`, `return`, or `else` (Ruby has approximately 45 keywords)
+  - **Literal data**, including strings, integers, booleans, and floats (more on this soon)
+  - **Defined barewords** that you create, like variables and method names (again, more on this soon)
+  
 #### Note: In code snippets, 
 - `#` represents a value that is printed to the Terminal screen or a comment (which we will learn more about soon)
 - `#=>` represents a return value that is *not* printed to the Terminal screen but has been interpreted by the Ruby interpreter
