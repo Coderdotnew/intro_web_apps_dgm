@@ -3,9 +3,9 @@
 # Lessons
 | Repository&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                             | 
 |----------------------------------------------------------------------------------------------------------------------------| 
-| [Intro to OOP Pt. 1](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/01_object_orientation_pt1)  | 
-| [Intro to OOP Pt. 2](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/02_object_orientation_pt2) | 
-| [Challenges](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/03_challenges)       | 
+| [Intro to OOP Pt. 1](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/01_object_orientation_pt1)     | 
+| [Intro to OOP Pt. 2](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/02_object_orientation_pt2)     | 
+| [Challenges](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class/03_challenges)                         | 
 
 
 # Navigation  
