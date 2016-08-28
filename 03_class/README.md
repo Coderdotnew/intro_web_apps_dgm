@@ -5,7 +5,7 @@
 |----------------------------------------------------------------------------------------------------------------------------| 
 | [Conditionals](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/03_class/01_conditionals)                     | 
 | [Multi-Branch Conditionals](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/03_class/02_multiple_branches)   | 
-| [Calculator Project](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/03_class/03_calculator)              |
+| [Calculator Project](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/03_class/03_calculator)                 |
 | [Challenges](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/03_class/04_challenges)                         |  
 
 

@@ -115,11 +115,10 @@ Now, let's check out the `.join` method
 - The more you use `.split` and `.join` the more comfortable you will become! Sometimes it is critical to split an array, manipulate it, and then join it together into a new string!  
 
 
-## Challenges   
-##### [Decimal Conversion](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/01_decimal_conversion)  
-##### [Prime Numbers](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/02_prime)
-##### [Emails](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/03_emails)  
-##### [Caesar Cipher](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/04_caesar_cipher)
+## Challenges    
+##### [Prime Numbers](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/01_prime)
+##### [Emails](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/02_emails)  
+##### [Caesar Cipher](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/03_challenges/code/03_caesar_cipher)
 
 ## Navigation  
 ##### Next class: [Object-Oriented Programming I](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/06_class)    

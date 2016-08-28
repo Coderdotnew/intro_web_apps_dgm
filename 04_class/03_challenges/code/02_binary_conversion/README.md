@@ -34,8 +34,6 @@ Write your code in the `binary.rb` file. You should be able to successfully conv
 | 100     | 110010     | 
 | 526     | 1000001110 | 
 
-### Bonus Challenge
-Google the `hexadecimal number system`. It works just like binary or decimal, but has a base of 16. Once you've figured out how hexadecimals work, create a program that converts a decimal number to its hexadecimal equivalent, and vice versa (as above). Write your code in the `hexadecimal.rb` file.
 
 ## Navigation  
 ##### Next class: [Arrays](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class)  
