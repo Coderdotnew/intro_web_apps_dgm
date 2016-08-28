@@ -18,7 +18,7 @@
   - **Ruby keywords** like `if`, `return`, or `else` (Ruby has approximately 45 keywords)
   - **Literal data**, including strings, integers, booleans, and floats (more on this soon)
   - **Defined barewords** that you create, like variables and method names (again, more on this soon)
-  
+
 #### Note: In code snippets, 
 - `#` represents a value that is printed to the Terminal screen or a comment (which we will learn more about soon)
 - `#=>` represents a return value that is *not* printed to the Terminal screen but has been interpreted by the Ruby interpreter
@@ -33,9 +33,9 @@ puts 1 + 1
 # 2 
 #=> "hello"
 ```
-- On line 1, `puts` is a Ruby keyword so there is no error and `Hello World!` is printed to the screen
-- One line 2, `1 + 1` is acceptable Ruby syntax so there is on error and `2` is printed to the screen
-- On line 3, we see a literal return value expressed as a string (and displayed with the `#=>` sign). This is a literal data type because it still contains the quotes, demonstrating a literal interpretation of the data
+- On line 1, `puts` is a Ruby keyword so there is no error and `Hello World!` is printed to the screen.
+- One line 2, `1 + 1` is acceptable Ruby syntax so there is on error and `2` is printed to the screen.
+- On line 3, we see a literal return value expressed as a string (and displayed with the `#=>` sign). This is a literal data type because it still contains the quotes, demonstrating a literal interpretation of the data.
 
 
 ##### Let's learn some Ruby!  
@@ -50,23 +50,23 @@ Ruby, and all programming languages, require data for a program. Ruby accepts se
       - `"!@#$%"`   
       - `"true"`  
       - `" "` 
-  2. **Integers**: Whole numbers without decimal points. Integers are not surrounded by quotations   
+  2. **Integers**: Whole numbers without decimal points. Integers are not surrounded by quotations.   
       - `1`   
       - `2`   
       - `500`    
       - `1010`    
-  3. **Booleans**: A fancy word for true or false. Booleans are lower-case in Ruby and are not surrounded by quotations   
+  3. **Booleans**: A fancy word for true or false. Booleans are lower-case in Ruby and are not surrounded by quotations.   
       - `true`   
       - `false`   
-  4. **Floats**: An integer followed by a decimal point   
+  4. **Floats**: An integer followed by a decimal point.   
       - `1.0`   
       - `9.999`     
       - `0.1`   
   
 # puts
 - `puts` is an important keyword in Ruby, but are is also commonly misunderstood.  
-- `puts` cleverly stands for "put" and "string" or put the string to the screen. `puts` prints the data (string, integer, boolean, or float) to the screen, and adds a newline character (`\n`) at the end of the string, which tells the interpreter to move to the next line at the end of the string.  
-- Let's take a look at an example (*note: the `#=>` symbol represent the value printed on the simulated command line below*)  
+- `puts` cleverly stands for **put** and **s**tring or put the string to the screen. `puts` prints the data (string, integer, boolean, or float) to the screen, and adds a newline character (`\n`) at the end of the string, which tells the interpreter to move to the next line at the end of the string.  
+- Let's take a look at an example:
 
 ```ruby
 puts "hello"
@@ -90,7 +90,7 @@ puts "goodbye"
 |`puts "Hello"`|`nil`|
 |`puts 1+1`|`nil`|  
 
-- Without the keyword `puts`, Ruby will return the *literal* value of the data you entered, including the quotation marks when dealing with strings, as seen in the first 4 examples  
+- Without the keyword `puts`, Ruby will return the *literal* value of the data you entered, including the quotation marks when dealing with strings, as seen in the first 4 examples.  
 - Note in the first 2 lines, `"Hello"` and `"Hi"`, there is no keyword. `return` is an *implicit* keyword, meaning Ruby will automatically insert it for you and still return the *literal* value, as seen when `"Hello`" and `"Hi"` were returned.  
 - However, because `puts` does not *evaluate* the code, but rather repeat it and print it to the screen, the return value is `nil`, as seen in the last 2 examples
 - We will get more into `nil` as the course progresses, but think of it as something in Ruby that represents nothingness. 
@@ -98,11 +98,11 @@ puts "goodbye"
 ##### You're doing great! These concepts will become much more clear as you begin to write your own Ruby code. Let's start our first code along!
 
 # code_along
-In this first code along, we are going to use a tool called **IRB**, or Interactive Ruby. IRB is a **REPL** (read-evaluate,-print-loop), which is like a simple computer programming environmnet that takes user inputs, evaluates them, and returns the result to the user.  
+In this first code along, we are going to use a tool called **IRB**, or Interactive Ruby. IRB is a **REPL** (read-evaluate,-print-loop), which is like a simple computer programming environment that takes user inputs, evaluates them, and returns the result to the user.  
 
-IRB is NOT a proper programming environment and does *NOT* save work. It will be used very briefly in these first few lessons until we become more comfortable running ruby files.  
+IRB is not a proper programming environment and does not save work. It will be used very briefly in these first few lessons until we become more comfortable running Ruby files.  
 
-- In your terminal, type `irb` into your command line and press `enter` and should see: (note: the 2.2.0 is the Ruby version install in your computer, but you may see 2.2.1 which is even newer. Both work.)  
+- In your terminal, type `irb` into your command line and press `enter` and should see: (note: the 2.3.0 is the Ruby version)  
 
 ```
 2.2.0 :001 > 
@@ -117,7 +117,7 @@ NameError: uninitialized constant Hello
   from /Users/coderdotnew/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
 ```
 
-AHHHH AN ERROR :confounded:  Kidding, we love errors. Let's check it out.  
+AHHHH AN ERROR. Kidding, we love errors. Let's check it out.  
   - If we break down this error it tells us *what* we did wrong and *where* this incorrect code can be found. 
   - According to the message, there is an uninitialized constant called `Hello` and it is on line `1`  
   - Two things to note:   
@@ -132,7 +132,7 @@ Hello, World!
  => nil
 ```
 
-:clap: :clap: :clap: YOU WROTE YOUR FIRST PROGRAM! The `Hello, World!` program is famously the first program many computer programmers write. So welcome to the club!  
+YOU WROTE YOUR FIRST PROGRAM! The `Hello, World!` program is famously the first program many computer programmers write. So welcome to the club!  
 
 - Ruby first printed `Hello, World!` to the screen. Notice there are no quotes because we use `puts` and `print` for the user, the quotes are for the computer. When it is printed, the quotes are removed because we can understand words without making them strings (with quotes around them)   
 - The return value, as expected, is `nil`, as depicted by the `=>`symbol. Can you remember why this is our return value?   
