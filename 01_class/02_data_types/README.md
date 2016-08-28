@@ -12,7 +12,7 @@ Now that we have a bit of background on what Ruby is and a how to code the most 
 ![2](http://i.imgur.com/Mf2VlrZ.gif)  
 
 # integers 
-**Integers** are the most straightfoward data types as they are simply whole numbers (including 0). Ruby is an amazing mathematician and can pretty much do any calculation you can think of, but obviously follows PEMDAS.  
+**Integers** are the most straightfoward data types as they are simply whole numbers (including 0 and negatives). Ruby is an amazing mathematician and can pretty much do any calculation you can think of, but obviously follows PEMDAS.  
 
 - Integers *are not* surrounded by quotations (pop quiz: if you surround an integer with quotation marks, what data type does it turn into?)  
 
@@ -34,10 +34,10 @@ puts 100*100
 # 10000
 ```
 - Reminder: Ruby evaluates top to bottom which is why we see our return values printed in this order.    
-- You might be wondering why the expression was evaluated and printed, even though `puts` evaluates and has a return value of `nil`.  
-- In the case of integers and integer expressions, Ruby views these as *one literal value*.  
+- You might be wondering why the expression was calculated and then printed, even though `puts` does notevaluates and has a return value of `nil`.  
+- In the case of integers and integer expressions, Ruby views these expressions as *one literal value*.  
 
-Because Ruby is a great calculator implemented, when it runs `1+1` it sees `2` and when it runs `100*100` it sees `100001`. Ruby views expressions as a literal value, which is the value being *printed* to the screen or *returned*, depending on your program.  
+Because Ruby is a great calculator, when it runs `1+1` it sees `2` and when it runs `10*10` it sees `100`. Ruby views expressions as a literal value, which is the value being *printed* to the screen or *returned*, depending on your program.  
 
 # strings  
 **Strings** are anything written inside of single or double quotation marks (I prefer double, but Ruby will accept both)  
@@ -53,7 +53,7 @@ puts "Hello, World!"
 puts "1 + 1 = 2"
 puts "Good morning!" + "How are you?"
 puts "I'm a Rubyist!"
-Puts 'I"m a Rubyist, too!'
+puts 'I"m a Rubyist, too!'
 
 # Hello, World!
 # 1 + 1 = 2
@@ -63,7 +63,7 @@ Puts 'I"m a Rubyist, too!'
 ```
 - What? It's straightforward, I promise...
 - Ruby printed the *literal* values which is why we see `1 + 1 = 2`, because they are strings and not numbers, meaning Ruby spit them right back out at us.
-- WAIT?! YOU CAN ADD STRING?! Absolutely. This is called **string concatenation**  
+- You can add a string?! Absolutely. This is called **string concatenation**  
     - Be careful though. You'll notice there is no space between `!` and `How`. This is because Ruby will not add a space because it doesn't know how to speak English. You must add in the space yourself either after the `!` or before the `Hello`.  
 
 Let's try something new...  
@@ -80,8 +80,8 @@ puts "My age is " + 26
 - We'll get back to this very shortly.   
 
 # floats  
-Floats are just number with a decimal point.   
-The major note here is if you perform math on a float with an integer, the return value will be a float 
+Floats are just numbers with a decimal point.   
+The major note here is if you perform math on a float with an integer, the return value will be a float (Ruby like to return the most specific answer, in this case, a float is more specific than an integer).
 
 ![4](http://i.imgur.com/oxr1jgh.gif)   
 
@@ -99,27 +99,29 @@ puts 10 - 0.1
 `true` and `false` are **booleans**  (notice no quotation marks aka a boolean is *not* a string)  
 `"true"` and `"false"` are **strings**   
 
-...cool 
+...that is all 
 
 # ruby_methods
-We will cover methods extensively later, but for now, consider a method a basic set of instructions that perform a function. Luckily, Ruby has a handful of methods pre-written that we can **call**
+We will cover methods extensively later, but for now, consider a method a basic set of instructions that perform a specific function. Luckily, Ruby has a handful of methods pre-written that we can **call**.
 - **Calling a method** means to add that functionality to the data we are currently working with. 
 - We call a method using **dot notation**. Let's take a look at the methods we will use today...  
   - `.to_i` stands for "to integer" (clever right, thanks Matz). This is called on a string to convert a string to an integer.  
-  - `.to_s` stands for "to string" (...told you Ruby makes sense). This is called on an integer to convert an integer into a string.  
+  - `.to_s` stands for "to string" (told you Ruby makes sense). This is called on an integer to convert an integer into a string.  
 
 ```ruby
-puts "1" + "1"
-puts "1".to_i + "1".to_i
-puts 4.to_s + "6"
-puts "What happens if I do this?".to_i
-puts "1.5".to_i
+"1" + "1"
+"1".to_i + "1".to_i
+4.to_s + "6"
+"What happens if I do this?".to_i
+"1.5".to_i
+10.7.to_i
 
-# 11
-# 2
-# 46
-# 0
-# 1
+#=> "11"
+#=> 2
+#=> "46"
+#=> 0
+#=> 1
+#=> 10
 ``` 
 - Remember, adding 2 strings will return the literal value of those strings. In the eyes of Ruby, a `"1"` is a random character inside quotes whereas `1` is an integer.  
 - When *calling* the `.to_i` Ruby method on a string, is is converted into an integer and treated as such when evaluated
@@ -137,21 +139,21 @@ Note: you can call `.even?` on an odd integer and `.odd?` on an even integer
 1.odd?
 526.even?
 
-# false
-# true
-# true
+#=> false
+#=> true
+#=> true
 ```
-Make sense? Perf :thumbsup: 
+Make sense? Perf.
 
 # code_along
-Open IRB. Make the following run without error in your IRB  
-- `"6" + "6"` (should print `12`) 
-- `"6" * "6"` (should print `36`)
-- `"5" + 4` (should print `9`)
-- `"The temperature today is " + 85 + " degrees."` (should print `The temperature today is 85 degrees.`)
-- call `.even?` on any integer that will print `true`
-- call `.odd?` on any integer that will print `false`
-- CHALLENGE: call `.even?` on `"1"` (should print `false`)  
+Open IRB. Make the following 3 lines of code run without error in your IRB  
+- `"6" + "6"` (should return `12`) 
+- `"6" * "6"` (should return `36`)
+- `"5" + 4` (should return `9`)
+- `"The temperature today is " + 85 + " degrees."` (should return `The temperature today is 85 degrees.`)
+- Call `.even?` on any integer that will return `true`
+- Call `.odd?` on any integer that will return `false`
+- Challenge: call `.even?` on `"1"` (should return `false`)  
 
 #### Note: If you ever get stuck in IRB because of syntax or because IRB is :poop: sometimes and just breaks, type in `exit!` + press `enter` and it will force exit IRB 
 

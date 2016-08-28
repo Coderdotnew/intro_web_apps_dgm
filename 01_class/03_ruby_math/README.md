@@ -1,5 +1,5 @@
 # ruby_math
-I hope you are starting to feel *slightly* more comfortable with Ruby than you did when you started. If not, that's okay because this section of class is all about MATHS!  
+I hope you are starting to feel *slightly* more comfortable with Ruby than you did when you started. If not, that's okay because this section of class is all about MATH!  
 
 ![1](http://i.imgur.com/Jg7KtOw.gif)   
 
@@ -7,71 +7,71 @@ Let's take a look at the math Ruby can do:
 - Ruby accepts the 4 primary operators  
 
 ```ruby 
-puts 9 + 3
-puts 9 - 3
-puts 9 * 3
-puts 9 / 3
+9 + 3
+9 - 3
+9 * 3
+9 / 3
 
-# 12
-# 6
-# 27
-# 3
+#=> 12
+#=> 6
+#=> 27
+#=> 3
 ```
 - Ruby can also perform exponents using the following template: `base ** exponent` (i.e. 2 ** 2 is the same thing as 2 ^ 2)
 
 ```ruby 
-puts 2 ** 3
-puts 4 ** 2
-puts 5 ** 4
+2 ** 3
+4 ** 2
+5 ** 4
 
-# 8
-# 16
-# 625
+#=> 8
+#=> 16
+#=> 625
 ```
 # modulo
-A common operator in computer science is known as the **modulo**. The modulo operator returns the *remainder* of a division expression   
-- For example, 10 divided by 1 is 10, so 10 modulo 1 is 0. However, 10 divided by 4 has a remainder of 2, so 10 modulo 4 is 2  
+A common operator in computer science is known as the **modulo**. The modulo operator returns the *remainder* of a division expression.   
+- For example, 10 divided by 1 is 10, so 10 modulo 1 is 0. However, 10 divided by 4 has a remainder of 2, so 10 modulo 4 is 2.  
 - Can you think of an instance in an application where the modulo operator might come in handy?  
 
 ```ruby 
-puts 25 % 5
-puts 25 % 4
-puts 10 % 3
+25 % 5
+25 % 4
+10 % 3
 
-# 0
-# 5
-# 1
+#=> 0
+#=> 5
+#=> 1
 ```
 - Ruby can do some pretty sweet comparisons, too. When I say pretty sweet comparisons I mean just regular ones.  
-- A comparison in Ruby will always return either `true` or `false`  
+- A comparison in Ruby will always return either `true` or `false`.  
 - Note: `>=` is greater than or equal to and `<=` is less than or equal to  
 
 ```ruby
-puts 100 > 99
-puts 100 < 99
-puts 100 >= 100
-puts 100 <= 100
+100 > 99
+100 < 99
+100 >= 100
+100 <= 100
 
-# true
-# false
-# true
-# true
+#=> true
+#=> false
+#=> true
+#=> true
 ```
-- All right, back to using strings. To compare values in Ruby, you use `==` (equal to) or `!=` (not equal to). Pretty straightforward, right? Be careful with strings, as they must be the same exact literal value in order to return `true` when comparing (including punctation, capital letters, and whitespace, aka spaces)  
+- All right, back to using strings. To compare values in Ruby, you use `==` (equal to) or `!=` (not equal to). Pretty straightforward, right? Be careful with strings, as they must be the same exact literal value in order to return `true` when comparing (including punctation, capital letters, and whitespace, aka spaces).  
 - Notice again, the return values for comparisons is either `true` or `false`  
 
 ```ruby
-puts "Hello, World!" == "Hello, World!"
-puts "hello world" == "Hello, World!"
+"Hello, World!" == "Hello, World!"
+"hello world" == "Hello, World!"
 
-# true
-# false
+#=> true
+#=> false
 
-puts "1".to_i == 1
-puts 1+2 == 3
+"1".to_i == 1
+1+2 == 3
 
-# true
-# true
+#=> true
+#=> true
 
 puts 1.even? == true
 puts 2.even? == true
@@ -109,7 +109,7 @@ This code along will build on the skills we just learned. Let's open IRB.
 ```ruby
 2.2.0 :003 > (2 > 1 || 1 > 2)
 ```
-- This comparison returned true because only 1 of the comparisons had to pass as true (the first one)  
+- This comparison returned `true` because only 1 of the comparisons had to pass as true (the first one)  
 
 - Let's get a little more complex
 ```ruby
@@ -119,7 +119,7 @@ This code along will build on the skills we just learned. Let's open IRB.
 - Remember, Ruby reads from left to right and is looking for the first comparison to return false. 
 - On the left side of the `&&`, one of the comparisons passes so Ruby continues to the right side of the `&&`
 - `"string"` is NOT EQUAL TO `"String"` AND `5` IS EQUAL to `"5".to_i`. 
-- Our compound comparison is true.
+- Our compound comparison is `true`.
 
 #### These comparisons will get easier with time. It's important to read through them carefully, and break apart the problem as much as possible   
 ![2](http://i.imgur.com/VbsuTxJ.gif)  
