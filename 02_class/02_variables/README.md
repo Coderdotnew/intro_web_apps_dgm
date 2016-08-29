@@ -1,10 +1,11 @@
 # variables
-Let's think about algebra really quick. We use variables in algebra problems to assign a value to a letter, usually x, that we don't know yet. Then we solve for x. The cool thing is, x can be any number and changes all the time, ergo it's variable. Think of a variable as a bucket because it can hold any data inside of it and eventually be poured out and refilled with a different value!   
+Let's think about algebra really quick. We use variables in algebra problems to assign a value to a letter, usually x, that we don't know yet. Then we solve for x. The cool thing is, x can be any number and changes all the time--it's value can vary. Think of a variable as a bucket that can hold any data inside of it and eventually be poured out and refilled with a different value!   
 
 ![1](http://i.imgur.com/Z1EHF7S.gif)   
 (Even though we all obviously prefer the bucket be full of sloths, Ruby data will do for now...)    
 
-In Ruby, we define the variables we use. A variable in Ruby doesn't just have to be a number, but can be any of the 4 data types (remember those?) or it can even be assigned to the return value of a method! Let's take a look at the syntax  
+In Ruby, we define the variables we use. A variable in Ruby doesn't just have to be a number, but can be any of the four data types (remember those?) or it can even be assigned to the return value of a method!  
+Let's take a look at the syntax  
 ```ruby
 first_name = "Barack"
 last_name = "Obama"
@@ -12,18 +13,19 @@ last_name = "Obama"
 puts first_name + " " + last_name
 # Barack Obama
 ```
-- There are 2 variables *assigned* here: `first_name` and `last_name`
+- There are two variables *assigned* here: `first_name` and `last_name`
 - I know this because a variable is defined using `=` sign.
-- Similar to a method, a variable can only begin with a lower case letter or an underscore (I still separate words using underscores in variables, just like method names)
-- Each of the variables were assigned to a string and Ruby stored this data
+- Similar to a method, a variable can only begin with a lower case letter or an underscore (I still separate words using underscores in variables, just like method names).
+- Each of the variables were assigned to a string and Ruby stored this data.
 - This data was then printed to the screen when we prompted Ruby to print it using `puts` but rather than typing out the string again, we rather used the variable names (and a little **concatenation**... notice the space in the middle)!
 
 # scope
 An important concept for methods and variables is called *scope*.  
 ![2](http://i.imgur.com/mwHyfGj.jpg?1)  
 - Think of a para*scope* that a submarine uses. When underwater, someone looks through a parascope and can only see a limited field of vision due to the scope size.  
-- This is similar to *scope* in programming. Ruby can only see some of the code, depending on where it is written. 
-- Let's look at an example with a variable and a method
+- This is similar to *scope* in programming. Ruby can only see some of the code, depending on where it is written.  
+
+Let's look at an example with a variable and a method:
 ```ruby
 name = "Deadpool"
 def say_hello
@@ -130,7 +132,7 @@ end
 greeting
 # Nice to meet you, Deadpool!
 ```
-- WOOHOO! All on the same line! (p.s. It is safe to assume you will use `.chomp` with `gets` almost every time)  
+- All on the same line! (p.s. It is safe to assume you will use `.chomp` with `gets` pretty much every time)  
 ![3](http://i.imgur.com/jmjhSVN.gif)  
 
 # variable_reassignment

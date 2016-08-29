@@ -1,13 +1,20 @@
 # method_arguments
-Right when we think we are starting to get the hang of methods it's time to throw in arguments...  
+Right when we think we are starting to get the hang of methods it's time to throw in arguments...   
+
 ![1](http://i.imgur.com/KpiqIrf.gif?1)  
 
-# method_arguments  
 The goal of a method is to write a program that can be applied to a number of different instances.  
 - **Method arguments** allow for a much more flexible program. 
 - Think of an argument as data that can be input into a method to make it more specific for the given instance. 
-- For example, in the following method, I am limited to only saying "Hello" to Beyonce. This means that anytime I call the `greeting` method, it will only say "Hello" to Beyonce. Well what if Jay-Z walked in and I called the `greeting` method. I don't think he'd be cool with being greeted by his wife's name. 
-- To fix this, we want to *pass* in an argument when we define the method... 
+- In other words, we don't want to be stuck with one value for a variable within a method.
+```ruby
+def greeting
+    name = "Jay-Z"
+    puts "Hello #{name}!"
+end
+```
+- In this method, I am limited to saying "Hello" to Jay-Z. This means that anytime I call the `greeting` method, it will only say "Hello" to Jay-Z. Well what if Kanye walked in and I called the `greeting` method. I don't think Yeezus would be happy being called Jay-Z. 
+- To fix this, we want to add an argument when we define the method... 
 ```ruby
 def greeting(name)
     puts "Hello, #{name}! How's it going?"
@@ -25,8 +32,7 @@ greeting("Kanye")
 - Inside the method, I **interpolated** the argument inside the string.
 - Lastly, I called the method *twice*. The first time by passing in the name, "Jay-Z" and the second time passing in the name "Kanye".  
 
-##### Take note:
-Ruby is strict about arguments. This means, if you define a method with an argument, then you *MUST* pass in an argument or you will get an error.
+##### Note: Ruby is strict about arguments. This means, if you define a method with one argument, then you *MUST* pass in one argument or you will get an error.
 ```ruby
 def greeting(name)
     puts "Hello, #{name}! How's it going?"
@@ -75,7 +81,7 @@ end
 amazon_cart("iWatch")
 #=> "You add iWatch to your cart. There is 1 in your cart."
 ```
-- NO ERROR! In this example, I defined 2 arguments, `item` and `quantity` which had a default value of `1`. This means that when I call `amazon_cart`, I *MUST* pass in an item, but if I don't pass in a quantity it will be automatically set to `1`. 
+- No argument, no error! In this example, I defined two arguments, `item` and `quantity` which had a default value of `1`. This means that when I call `amazon_cart`, I *must* pass in an item, but if I don't pass in a quantity it will be automatically set to `1`. 
 ```ruby
 def amazon_cart(item, quantity=1)
     "You added #{item} to your cart. You have #{quantity} in your cart."
@@ -84,7 +90,7 @@ end
 amazon_cart("iWatch", 3)
 #=> "You added iWatch to your cart. You have 3 in your cart."
 ```
-- In this example, I was able to pass in `3` as a quantity which overwrote the default value. A default value gives the user the option to pass in a a specific value, or keep the value defined by the programmer without receiving an error! BEAUTIFUL! 
+- In this example, I was able to pass in `3` as a quantity which overwrote the default value. A default value gives the user the option to pass in a a specific value, or keep the value defined by the programmer without receiving an error!  
 
 # arguments_vs_parameters
 You may run into the keyword **parameter** when looking more into **arguments**. As far as the difference between the two, it primarily lies in the context which it is referred to.  
@@ -103,7 +109,7 @@ end
 
 example_method(arg1, arg2) # call method with arguments here
 ```
-#### You *define* parameters, but *pass* in arguments  
+#### You *define* parameters, but *pass* in arguments. 
 
 
 ## Challenges    
