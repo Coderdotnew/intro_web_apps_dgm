@@ -43,7 +43,7 @@ end
 
 # specific_to_generic
 - Like all program design, creating conditional loops requires you to think critically about where certain conditions should go. 
-- For example, a specific case should go first for the reason we will see below
+- For example, a specific case should go first for the reason we will see below.
 ```ruby
 def president_qualification(country_born, age)
     if country_born == "United State"
@@ -71,7 +71,7 @@ end
 
 president_qualification("United States", 34)
 ```
-- When calling the method this time, the candidate would be deemed `"Ineligible"` because the first condition does not equate to `true` 
+- When calling the method this time, the candidate would be deemed `"Ineligible"` because the first condition does not equate to `true`. 
 
 
 ## Challenges  
