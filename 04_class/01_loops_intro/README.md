@@ -1,12 +1,9 @@
 # intro_to_loops
-We are only a few lessons from having most of the Ruby foundations in the bag! Next up is loops.     
+Time for loops.     
 ![1](http://i.imgur.com/TlFW50T.gif)  
 (Get it? It's a gif that loops? Anyway...)
 
-###### NOTE: Before we begin, it is important to understand that in code snippets, `#` represents a value that is being printed to the screen with `puts` or `print`; `#=>` represents a return value.
-
-# loops
-Loops in Ruby are used to execute the same block of code for a specified number of times. Let's look at a basic example to see what I'm talking about. This is a bit contrived because we would want to add more details to our program later, but bare with me for now.
+Loops are used to execute the same block of code for a specified number of times. Let's look at a basic example to see what I'm talking about. This is a bit contrived because we would want to add more details to our program later, but bare with me for now.
 ```ruby
 def say_hello
     puts "Hello!"
@@ -16,7 +13,7 @@ def say_hello
     puts "Hello!"
 end
 ```
-- When I run this, the output will simply be `"Hello!"` 5 times. As you can already see this could become annoying to type over and over again.
+- When this runs, the output will simply be `"Hello!"` 5 times. As you can already see this could become annoying to type over and over again.
 # times_loops
 You will quickly notice there are a number of ways to perform the same exact function in Ruby. The syntax for the *times loop* is as follows:  
 ```ruby
@@ -40,7 +37,8 @@ end
 # infinite_loops  
 ![2](http://i.imgur.com/sztPMHF.gif)      
 As the program designer, you must carefully consider how the Ruby interpreter will *literally* interpret your code. An **infinite loop** is when you do not give Ruby instructions on when to *break* the loop...
-# loop_do
+
+ # loop_do  
 The next loop syntax is simply using the `loop` keyword. Again, `do` tells the Ruby interpreter to run the following code.
 ```ruby
 loop do
@@ -94,16 +92,16 @@ end
 - Next, we defined a loop and included the `do` keyword to tell Ruby that it's going to start executing some code.
 - Notice we then inserted a conditional block inside this loop. This allowed us to tell Ruby what *conditions* to follow for the loop, and if those conditions were not met, then to `break` out of the loop
 - In the first loop, age is set to `1` and Ruby checks to make sure the age is less than or equal to 5. Check.
-- Next, it prints `You're 1 years old! to the screen. The `age` variable is interpolated in this string.
+- Next, it prints `You're 1 years old! to the screen`. The `age` variable is interpolated in this string.
 - The next line is new. `age = age + 1` is reassigning the age counter after the first loop. What is literally happening is Ruby is taking `age` and setting it equal to itself + 1. 
 - ` age = 1 + 1`. The counter is now equal to `2`! Ruby does this all inside the counter.
 - In the next loop, age is still less than or equal to 5 so it prints `You're 2 years old!`
 - Ruby will continue following this loop until the age counter exceeds 5, at which point it will no longer meet the condition of being less than or equal to 5 and will therefore `break` out of the loop and we won't have a repeating loop! 
 - Lastly, notice there are 3 `end` keywords (1 for the method, 1 for the loop, and 1 for the conditional block!!)
-#### YASSSSSS counters!
+###### Counters FTW!
 
 - However, counters can be tricky to think about conceptually, so it's always important to remember Ruby interprets *top to bottom, 1 line at a time*. 
-- Watch what happens when I change the previous code around ever so slightly...  
+- Watch what happens when the previous code is changed around ever so slightly...  
 ```ruby
 def growing_up
     age = 1 # this is my counter that I will iterate over in each loop
@@ -154,7 +152,7 @@ end
 - If we want a return value that is not `nil`, we must write it OUTSIDE of the loop block. Notice in the example below that it is the line after the `end` keyword that corresponds with the `loop do` start keywords.
 ```ruby
 def loops_return_value
-    i = 1 #it is common to use i which stands for iterator
+    i = 1 #it is common to use i as a counter, or iterator
     loop do
         if i <= 5
             puts "This is loop #{i}."
@@ -166,7 +164,8 @@ def loops_return_value
     "This is the return value" # the return value must be OUTSIDE of the loop block 
 end
 
-loops_return_value #this is calling the method
+# next we will call the method
+loops_return_value 
 # This is loop 1.
 # This is loop 2.
 # This is loop 3.
@@ -188,10 +187,11 @@ def return_value
     counter
 end
 
-return_value # call the method here
+# call the method below
+return_value 
 #=> 10
 ```
-- Our return value in this case is `10`, which is the last value in the loop iteration. Though the loop executes integers `1` through `9` as well, it only returns the last value executed in the loop
+- Our return value in this case is `10`, which is the last value in the loop iteration. Though the loop executes integers `1` through `9` as well, it only returns the last value executed in the loop.
 
 # code_along
 - For this code along, we will be using method arguments, loops, and conditional blocks, so get ready! 

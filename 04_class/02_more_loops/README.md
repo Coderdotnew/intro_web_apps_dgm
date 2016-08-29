@@ -13,7 +13,8 @@ In the next lesson we learn about how to organize data, for example a list of us
 | Clark Kent | 1304 | 
 | Tony Stark | 758 | 
 | Wade Wilson | 73 | 
-| Bruce Wayne | 333 |  
+| Bruce Wayne | 333 | 
+| Steve Rogers | 73 |  
 
 You get the idea. Now, imagine there about 100,000 more rows of passengers and flights numbers that could not possibly fit on this page.  
 
@@ -32,9 +33,8 @@ end
 - It can be a bit tough to still see the big picture, however, think of a loop as an automation tool that allows you to search through huge lists very rapidly. Remember, we use code to make our lives easier! 
 
 # more_loops
-In this lesson, we are going to look at a basic exaple of a loop and how this loop can be performed numerous ways in Ruby. First, let's perform this loop using the syntax we already know.  
+Before learning about several other loops, there is shorter syntax for using counters.
 
-- First, let's learn new syntax for counter! 
 - Currently here's what we have
 ```ruby
 counter = 1
@@ -59,8 +59,9 @@ counter = 100
 counter /= 2
 # this divides the counter by 2 for every loop
 ```
-- Note: I will be using the shorter syntax for the rest of the course
+- Note: We will be using the shorter syntax for the rest of the course.
 
+We are going to look at a basic exaple of a loop and how this loop can be performed numerous ways in Ruby. Let's perform this loop using the syntax we already know.  
 ```ruby
 # we want each loop to output the following code
 
