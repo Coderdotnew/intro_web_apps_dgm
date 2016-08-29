@@ -160,7 +160,7 @@ Let's create a class, Coder, that can represent a person as a coder
 ```ruby
 class Coder
 end
-student1 = Coder.new # CODER.NEW!!!!!!
+student1 = Coder.new 
 #=> <Coder:0x007fc7598fb150>
 ```
 - We can already instantiate a new instance of the `Coder` class with the `.new` method and are given a unique object ID.
