@@ -7,7 +7,7 @@ Control flow tells your program what code to execute based on what conditions ar
 Control flow is critical to coding efficient programs that only run certain conditions depending on whether or not a condition is true.   
 
 # ruby_conditionals
-There is specific syntax to implement control flow into your Ruby program. We are going to start small and then build up to some pretty complex programs dependent upon control flow
+There is specific syntax to implement control flow into your Ruby program. We are going to start small and then build up to some pretty complex programs dependent upon control flow.
 ```ruby
 if (condition)
     # code
@@ -15,18 +15,19 @@ else
     # code
 end
 ``` 
-- Let's break this down...
+Let's break this down...  
 - Just like a method has a keyword to begin (`def`), a conditional starts with the keyword `if`.
 - After `if` is where the conditional statement goes. 
 - *If* this statement is true, the next line of code will return, or *else* it will move to the next statement.
-- Latly, there *must* be an `end` keyword to inform Ruby the conditional block is complete (or you will receive an error :confounded:)
-- Let's look at an actual example
+- Latly, there *must* be an `end` keyword to inform Ruby the conditional block is complete (or you will receive an error)  
+
+Let's look at an actual example:
 ```ruby 
 x = 1
 if x < 5
-    return "x is less than 5"
+    "x is less than 5"
 else
-    return "x is not less than 5"
+    "x is not less than 5"
 end
 ```
 - Can you guess what this statement would return? That's right, `x is less than 5`.
@@ -41,53 +42,55 @@ else x != 1
     return "x is not equal to 1"
 end
 ```
-- In this case, writing `x != 1` was unnecessary and repetitive. X is either equal to 1 or it is not, there is no need to include a condition following `else`.
-- Let's look at one more example to show this concept...
+- In this case, writing `x != 1` was unnecessary and repetitive. `x` is either equal to 1 or it is not, there is no need to include a condition following `else`.  
+
+Let's look at one more example to demonstrate this concept...
 ```ruby
 if false
-    puts "This will never get printed because the above statement is false."
+    "This will never get printed because the above statement is false."
 else
-    puts "This will get printed"
+    This will get printed"
 end
 
 if true
-    puts "This will always get printed because the above statement is true."
+    "This will always get printed because the above statement is true."
 else
-    puts "This will not get printed"
+    "This will not get printed"
 end
 ```
 - In the above examples, Ruby evalutes the condition and checks for `true` or `false` when detemrining what code to run. 
 - `if` the code evaluates to `false` or `nil`, it will *not* run that code.
 
-# code_along
-Let's make a simple control flow statement inside a method
-1. create a method, personal_greeting, that accepts 1 argument, name
+# code_along.
+Let's make a simple control flow statement inside a method.  
+Create a method, personal_greeting, that accepts 1 argument, name
 ```ruby
 def personal_greeting(name)
 
 end
 ```
-2. Enter an `if` statement checking if the `name` is equal to Leonardo DiCarprio.
-3. This condition should return "Congrats on the Oscar! It's about time..." if true.
+Enter an `if` statement checking if the `name` is equal to Leonardo DiCarprio.  
+
+This condition should return "Congrats on the Oscar! It's about time..." if true.
 ```ruby
 def personal_greeting(name)
     if name == "Leonardo DiCaprio"
-        return "Congrats on the Oscar! It's about time..."
+        "Congrats on the Oscar! It's about time..."
 end
 ```
-4. Add an `else` keyword that returns "Hello, " followed by their name (interpolate).
+Add an `else` keyword that returns "Hello, " followed by their name (interpolate).
 ```ruby
 def personal_greeting(name)
     if name == "Leonardo DiCaprio"
-        return "Congrats on the Oscar! It's about time..."
+        "Congrats on the Oscar! It's about time..."
     else
-        return "Hello #{name}."
+        "Hello #{name}."
     end
 end
 ```
-- Now run this with any name you wish to see how this control flow affects what our program returns!
+Now run this with any name you wish to see how this control flow affects what our program returns!
 ```ruby
-puts personal_greeting("Leonardo DiCaprio")
+personal_greeting("Leonardo DiCaprio")
 #=> "Congrats on the Oscar! It's about time..."
 
 puts personal_greeting("Bill Gates")
