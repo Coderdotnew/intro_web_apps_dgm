@@ -7,10 +7,10 @@ And then he drew this bull...
 ![2](http://i.imgur.com/S1SdvQC.jpg?1)   
 Notice the second bull has WAY less details, but is still easily identifiiable as a bull. This is the concept of **abstraction**. In computer science, this means stripping away data and syntax to reduce complexity and increase efficiency. 
 
-Now let's talk about abstraction in Ruby. Ruby is defined as a relatively *high-level programming* language because it is highly abstracted from *machine code*. This basically means it is dynamic, interpreted, and has flexible syntax. The deeper we dive into Ruby, you'll realize how many ways there are to do the exact. same. thing.  
+Now for abstraction in Ruby. Ruby is defined as a relatively *high-level programming* language because it is highly abstracted from *machine code*. This basically means it is dynamic, interpreted, and has flexible syntax. The deeper we dive into Ruby, you'll realize how many ways there are to do the exact. same. thing.  
 
 # looping = least_abstract
-Let's look at an example that performs the same fuction. We are going on a college roadtrip and are visiting several colleges. Our goal is to create a loop using an array of colleges and to loop through that array until each college has been visited.  
+Let's look at an example that performs the same fuction in varying degrees of abstraction. We are going on a college roadtrip and are visiting several colleges. Our goal is to create a loop using an array of colleges and to loop through that array until each college has been visited.  
 
 #### loop do = least abstract
 ```ruby
@@ -87,8 +87,7 @@ end
 - In the first line, the `.each.` method is called using the *dot-notation*, like all other methods. This can ONLY be called on collections, like arrays.
 - Then there's `do`, which we have seen before. This is a Ruby keyword that tells Ruby to perform a specific functiom. 
 - Following `do` there is the actual *iterator*. The iterator is contained within **pipes**, which you will get used to in Ruby. 
-- Note: In the first example, my array was called `schools`. If I have a descriptive array name like this, I like to title my iterator the singular version of my array. Therefore, it will read like this: "Go through (iterate) each school in the schools array"  
-- When there isn't a specific array name, I will often simply use `i` as the iterator. 
+- Note: In the first example, the array was called `schools`. If there is a descriptive array name like this, feel free to name the iterator the singular version of the array. When there isn't a specific array name, simply use `i` as the iterator. 
 - Note: The iterator is a variable that stores the value of each item in the array. So, when we interpolate or use this variable in the logic below, we are referring to this iterator.
 - Just like a method or a loop, you MUST close with an `end` keyword
 
@@ -144,7 +143,7 @@ manipulate_with_each(nums)
 - Note: We didn't output this time, but I'm sure you could figure out how to do that as well!
 
 
-##### FYI: You will likely need to use the Ruby documenation page to complete some of the tests in the spec files :smiling_imp:
+##### Note: You will likely need to use the Ruby documenation page to complete some of the tests in the spec files 
 
 ## Challenges
 ##### [Squaring](https://github.com/Coderdotnew/intro_web_apps_dgm/tree/master/05_class/02_array_enumerables/code/01_squaring_for_days)

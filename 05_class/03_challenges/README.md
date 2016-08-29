@@ -1,5 +1,5 @@
 # challenges
-In this portion of the lesson, we are going to cover a few advanced topics with regards to data structures. Your first priority should be to master the syntax and code challenges in classes 04_01 to 04_04. You can return to this section any time once you feel comfortable with arrays and hashes.
+In this portion of the lesson, we are going to cover a few advanced topics with regards to data structures. 
 
 # explicit_return
 #### using_return_with_.each
@@ -64,7 +64,8 @@ To review:
 - We use `.each` to iterate through a list of items (array or hash, or even a string of character), but anything we do to each item is not saved when we return the original array or hash
 - We use `.collect` to also iterate through a list of items and we want to return a manipulated array.  
 
-However, in the example above when we were looking for specific items that met a condition, Ruby ignored all those that did *not* meet that condition, even when using `.collect`. In this case, we can push the items we want into a new array (which we've seen but we'll recap, just in case...)  
+However, in the example above when we were looking for specific items that met a condition, Ruby ignored all those that did *not* meet that condition, even when using `.collect`. In this case, we can push the items we want into a new array (which we've seen but we'll recap, just in case...)   
+
 ```ruby
 schools = ["ASU", "USC", "Stanford", "Oregon", "Arizona"]
 a_schools = [] # define an empty array to push in the schools we want

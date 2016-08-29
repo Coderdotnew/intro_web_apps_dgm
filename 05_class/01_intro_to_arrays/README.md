@@ -1,5 +1,5 @@
 # intro_to_arrays
-It's time to throw in **data structures** and learn to apply all those concepts to actual data!  
+It's time to throw in **data structures** and learn to apply all those concepts to stored data.  
 
 In this lesson, we will cover **arrays** -- the data structures Ruby relies on to organize our data! This lesson is critical because almost all applications and programs deal with HUGE amounts of data and we need to know how to access this data, manipulate this data, loop throguh this data, and know how to read this data!  Let's get started...  
 ![1](http://i.imgur.com/N0TYx2x.gif)
@@ -19,7 +19,7 @@ Arrays can include numbers and/or integers and are defined and stored to a varia
 # when_to_use_arrays
 Arrays are used ALL THE TIME with all types of data. However, it is important to note that arrays are typically reserved for groups of data that can be easily organized together. For example, first names, states, countries, ages, etc
 ```ruby 
-first_names = ["Chris", "Sarah", "Andrea", "Mark"]
+first_names = ["Steven", "Miguel", "Andrea", "Kathleen"]
 countries = ["United States", "Mexico", "Italy", "Croatia"]  
 ages = [21, 22, 23, 24, 25, 26]
 ```
@@ -34,7 +34,7 @@ Just like there are methods reserved for integers and strings, there are methods
 ```ruby
 schools = ["ASU", "USC", "Stanford", "Oregon"]
 ```
-- There are A TON of methods we can use on this data set. 
+- There are a number of methods we can use on this data set. 
 - [Ruby Array Documentation](http://ruby-doc.org/core-2.3.0/Array.html): This is the official Ruby documentation you should become familiar with. This provides a number of examples and ALL of the possible methods you can use on arrays. We will only cover a few in this lesson, because it's most important to know how they are used rather than memorizing every single array method.
 ```ruby
 schools = ["ASU", "USC", "Stanford", "Oregon"]
@@ -51,7 +51,6 @@ schools.sort
 schools.count
 #=> 4
 ```
-- Without explanation, I'm confident you are already able to understand how each of these methods manipulates the data structure, as well as how to apply the other methods in the Ruby documentation guide. 
 - Let's look at a few more examples...
 ```ruby
 numbers = [100, 7, 8, 19, 27, 61)
