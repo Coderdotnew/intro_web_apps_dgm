@@ -1,4 +1,25 @@
-GRADING SCALE
+## To initialize a new application on Heroku enter the following commands in your Terminal:
+```
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku create
+git push heroku master
+```
+
+## Whenever you make a change to your application codebase in Cloud9, enter the following commands in your Terminal:
+```
+git status 
+git add .
+git commit -m "any message can go here"
+git push
+git push heroku master
+```
+
+## To rename your Heroku app from the Cloud9 Terminal:
+```
+heroku rename new-name-app
+```
+
+### GRADING SCALE
 
 (A+)8
 - Completed project (it works with no errors)
